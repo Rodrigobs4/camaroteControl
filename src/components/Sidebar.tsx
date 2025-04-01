@@ -65,7 +65,7 @@ export default function Sidebar() {
           <FaUser />
           Perfil
         </MenuItem>
-        <MenuItem to="/login" $active={location.pathname === "/login"}>
+        <MenuItem to="/" $active={location.pathname === "/login"}>
           <FaSignInAlt />
           Sair
         </MenuItem>
