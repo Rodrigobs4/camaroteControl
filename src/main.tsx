@@ -8,6 +8,7 @@ import CadastroPlanejamento from "./pages/CadastroPlanejamento";
 import CadastroUsuario from "./pages/CadastroUsuario";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
+import LandingPage from "./pages/landingPage";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/painel" element={<Painel />} />
         <Route path="/planejamento" element={<CadastroPlanejamento />} />
         <Route path="/cadastro-usuario" element={<CadastroUsuario />} />
+        <Route path="/landing" element={<LandingPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
