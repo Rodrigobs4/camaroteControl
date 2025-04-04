@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Painel from "./pages/Painel";
 import "./index.css";
+import LandingPage from "./landingPage/pages/LandingPage";
 import CadastroPlanejamento from "./pages/CadastroPlanejamento";
 import CadastroUsuario from "./pages/CadastroUsuario";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
-import LandingPage from "./pages/landingPage";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
